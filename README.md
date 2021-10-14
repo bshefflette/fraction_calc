@@ -1,8 +1,22 @@
 # Fraction Calculator
 
-Handle simple fraction operations:
+Handles simple fraction operations:
 
-Problem:
+# To Build
+
+( Requires Golang 1.16 or greater )
+
+1. go build
+
+# To Run (after build)
+
+1. ./fraction_calc "1_2/5 - 7_3/9"
+
+# Help
+
+1. ./fraction_calc help
+
+# Problem
 
 Write a command-line program in the language of your choice that will take operations on fractions as an input and produce a fractional result.
 
@@ -18,7 +32,7 @@ Legal operators shall be \*, /, +, - (multiply, divide, add, subtract)
 - negatives are possible
 - whole numbers are just '2'
 
-Example run:
+# Examples:
 
 ./fraction_calc "3 - 1"
 -> 2
